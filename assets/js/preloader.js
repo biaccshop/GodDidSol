@@ -8,6 +8,6 @@ document.addEventListener('DOMContentLoaded', function () {
     setTimeout(function () {
       preloader.style.display = 'none';
       window.scrollTo({ top: 0 });
-    }, 200);
+    }, 3000);
   });
 });

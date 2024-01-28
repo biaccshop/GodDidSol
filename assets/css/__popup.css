@@ -20,7 +20,7 @@
     padding: 2rem;
     border: 2px solid var(--color-primary);
     border-radius: 16px;
-    background-color: var(--color-background);
+    background-color: var(--color-background-transparency);
     color: var(--color-text-hover);
     cursor: pointer;
 }
