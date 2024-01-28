@@ -15,6 +15,8 @@ document.onkeydown = (e) => {
     return false;
 };
 
+
+
 // Scroll Reveal
 ScrollReveal({
   reset: false,
@@ -35,6 +37,8 @@ ScrollReveal().reveal('.about3-img', { origin: 'right', distance: '200px', delay
 ScrollReveal().reveal('.feedbacks-title', { origin: 'left', distance: '0px', delay: 200 });
 ScrollReveal().reveal('.feedbacks-content', { origin: 'top', distance: '0px', delay: 600 });
 ScrollReveal().reveal('.contact-title', { origin: 'left', distance: '0px', delay: 200 });
+
+
 
 // Navbar anchor + hiding # in URL
 $('a[href^="#"]').on('click', function (event) {

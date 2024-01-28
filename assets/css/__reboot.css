@@ -6,7 +6,7 @@
     margin: 0;
     outline: none;
     box-sizing: border-box;
-    scroll-behavior: smooth;
+    scroll-behavior: auto;
     scroll-padding-top: 5rem;
 }
 
@@ -66,7 +66,8 @@ img {
     --color-primary: rgb(140, 82, 255);
     --color-secondary: rgb(186, 104, 200);
     --color-primary-hover: rgb(127, 64, 252);
-    --color-background: #000500;
+    --color-background: rgb(0, 0, 0);
+    --color-background-transparency: rgba(0, 0, 0, 0.6);
     --color-dark: rgb(18, 18, 18);
     --color-dark-hover: rgb(33, 33, 33);
     --color-text-dark: rgb(155,155,155);

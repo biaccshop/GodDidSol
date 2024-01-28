@@ -3,6 +3,9 @@
 @import './__grid.css';
 @import './__utilities.css';
 @import './__buttons-icons.css';
+@import './__preloader.css';
+@import './__popup.css';
+@import './_header.css';
 @import './_footer.css';
 @import './_main.css';
 

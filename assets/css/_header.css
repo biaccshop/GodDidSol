@@ -1,0 +1,60 @@
+/* 1069px and Upper - Desktop Header */
+.header {
+    z-index: 99;
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navigation {
+    z-index: 100;
+    height: 9rem;
+    width: 100%;
+    padding: 0 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.navigation .navbar {
+    display: flex;
+    gap: 5rem;
+}
+
+.navigation .navbar a {
+    font-size: 2rem;
+    color: var(--color-text-hover);
+    font-weight: var(--font-weight-bold);
+    transition: 0.3s ease;
+    text-shadow: 0rem 0rem 2rem var(--color-primary);
+}
+
+.navigation .navbar a:hover {
+    color: var(--color-text-light);
+    text-shadow: 0rem 0rem 3rem var(--color-secondary);
+}
+
+/*  834px - 1068px - Laptop Header */
+@media screen and (min-width: 834px) and (max-width: 1068px) {
+
+}
+
+
+/*  576px - 833px - Tablet Header */
+@media screen and (min-width: 576px) and (max-width: 833px) {
+
+}
+
+/*  575px and Lower - Mobile Header */
+@media screen and (max-width: 575px) {
+    .navigation .navbar {
+        gap: 3rem;
+    }
+    
+    .navigation .navbar a {
+        font-size: 1.6rem;
+    }
+}
